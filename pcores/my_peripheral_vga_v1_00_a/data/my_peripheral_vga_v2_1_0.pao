@@ -1,0 +1,10 @@
+##############################################################################
+## Filename:          D:/RA116-2012/LPRS1/basic_system/pcores/my_peripheral_vga_v1_00_a/data/my_peripheral_vga_v2_1_0.pao
+## Description:       Peripheral Analysis Order
+## Date:              Thu Apr 07 11:27:16 2016 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+lib proc_common_v3_00_a  all 
+lib axi_lite_ipif_v1_01_a  all 
+lib my_peripheral_vga_v1_00_a user_logic vhdl
+lib my_peripheral_vga_v1_00_a my_peripheral_vga vhdl

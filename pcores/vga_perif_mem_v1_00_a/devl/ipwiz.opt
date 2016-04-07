@@ -1,0 +1,10 @@
+-batch 
+-create vga_perif_mem 
+-ver 1.00.a 
+-dir "D:\RA116-2012\LPRS1\basic_system" 
+-lang vhdl 
+-bus axi4lite s 
+-reg 1 
+-xps 
+-ise 
+-driver 

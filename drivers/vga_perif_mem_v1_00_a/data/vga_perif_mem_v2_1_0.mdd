@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          D:\RA116-2012\LPRS1\basic_system/drivers/vga_perif_mem_v1_00_a/data/vga_perif_mem_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Thu Apr 07 11:36:08 2016 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER vga_perif_mem
+
+  OPTION supported_peripherals = (vga_perif_mem);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER
